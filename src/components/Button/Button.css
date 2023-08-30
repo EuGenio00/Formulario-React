@@ -1,0 +1,18 @@
+
+.botaoContent {
+  max-width: 100%;
+  width: 35%;
+  margin: 8px;
+  display: flex;
+}
+
+.botao {
+  width: 105px;
+  height: 38px;
+  border-radius: 10px;
+  border: transparent;
+  background-color: #0848a8;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}

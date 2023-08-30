@@ -1,0 +1,29 @@
+.listaSuspensa{
+  width: 35%;
+  max-width: 100%;
+  display: grid;
+  grid-gap: 5px;
+}
+
+/* .listaSuspensa label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 4px;
+} */
+
+.listaSuspensa select {
+  background-color: #FFF;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0.06);
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  height: 32px;
+}
+
+form .listaSuspensa > label{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
