@@ -1,8 +1,10 @@
+import './Button.css';
 
-const Botao = (props) => {
+
+const Botao = (children) => {
   return (
     <div className="botaoContent">
-      <button className="botao" type="submit">{props.textoBotao}</button>
+      <button className="botao" type="submit">{children.textoBotao}</button>
     </div>
   )
 }

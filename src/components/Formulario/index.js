@@ -13,9 +13,14 @@ const Formulario = () => {
     'Discentes'
   ]
 
+  const aoEnviar = (evento) => {
+    evento.preventDefault();
+    console.log("O botao foi carregado :D")
+  }
+
   return (
     <div className="formContent">
-      <form>
+      <form onSubmit={aoEnviar}>
       <CampoTexto label="Nome" placeholder="Digite seu nome: "/>
       <CampoTexto label="Cargo" placeholder="Digite seu cargo: "/>
       <CampoTexto label="Imagem" placeholder="Digite sua imagem: "/>

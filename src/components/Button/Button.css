@@ -6,7 +6,7 @@
   display: flex;
 }
 
-.botao {
+.botaoContent button {
   width: 105px;
   height: 38px;
   border-radius: 10px;
