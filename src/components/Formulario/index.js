@@ -21,9 +21,9 @@ const Formulario = () => {
   return (
     <div className="formContent">
       <form onSubmit={aoEnviar}>
-      <CampoTexto label="Nome" placeholder="Digite seu nome: "/>
-      <CampoTexto label="Cargo" placeholder="Digite seu cargo: "/>
-      <CampoTexto label="Imagem" placeholder="Digite sua imagem: "/>
+      <CampoTexto eObrigatorio={true} label="Nome" placeholder="Digite seu nome: "/>
+      <CampoTexto eObrigatorio={true} label="Cargo" placeholder="Digite seu cargo: "/>
+      <CampoTexto eObrigatorio={true} label="Imagem" placeholder="Digite sua imagem: "/>
       <ListaSuspensa itens = {times}/>
       <Botao textoBotao= "Enviar"/>
     </form>
