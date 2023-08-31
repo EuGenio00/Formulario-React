@@ -4,9 +4,10 @@
   width: 35%;
   margin: 8px;
   display: flex;
+  justify-content: flex-end;
 }
 
-.botaoContent button {
+.botaoContent .botao {
   width: 105px;
   height: 38px;
   border-radius: 10px;
