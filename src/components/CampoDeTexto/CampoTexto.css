@@ -16,11 +16,12 @@ label {
 .campoTexto input {
   width: 45%;
   height: 35px;
-  margin: 3px 10px;
+  margin: 3px 0;
+  padding: 3px 10px;
   border: 1px solid rgba(0,0,0,.2);;
   border-radius: 5px;
 }
 
 .campoTexto > input::placeholder{
-  padding-left: 8px;
+  padding-left: 3px;
 }
