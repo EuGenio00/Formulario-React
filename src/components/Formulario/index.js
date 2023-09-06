@@ -23,7 +23,7 @@ const Formulario = (props) => {
     evento.preventDefault();
     props.aoColaboradorCadastrado([
       nome, cargo, imagem, time
-    ])
+    ]);
     console.log("O botao foi carregado :D");
   }
 
