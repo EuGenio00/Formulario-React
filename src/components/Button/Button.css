@@ -2,7 +2,7 @@
 .botaoContent {
   max-width: 100%;
   width: 35%;
-  margin: 8px;
+  margin: 20px 0 8px;
   display: flex;
   justify-content: flex-end;
 }
