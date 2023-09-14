@@ -38,7 +38,11 @@ function App() {
       times={times.map(time => time.nome)}
       aoColaboradorCadastrado = {colaborador => aoNovoColaboradorAdicionado(colaborador)}/>
 
-      {times.map(time => <Time key={time.nome} tituloNome={time.nome} corFundo={time.corFundo} />)}
+      {times.map(time => <Time 
+      colaboradores={colaboradores}
+      key={time.nome} 
+      tituloNome={time.nome} 
+      corFundo={time.corFundo} />)}
     </div>
   );
 }

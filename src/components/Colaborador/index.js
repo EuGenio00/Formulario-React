@@ -4,11 +4,11 @@ const Colaborador = (props) => {
   return(
     <div className='colaborador'>
       <div className='cabecalho'>
-        <img src={props.photo} alt='Foto do colaborador'/>
+        <img src={props.imagem} alt='Foto do colaborador'/>
       </div>
       <div className='rodape'>
-        <h4>{props.nomeColaborador}</h4>
-        <h5>{props.cargoColaborador}</h5>
+        <h4>{props.nome}</h4>
+        <h5>{props.cargo}</h5>
       </div>
     </div>
   )

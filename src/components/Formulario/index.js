@@ -13,9 +13,9 @@ const Formulario = (props) => {
 
   const aoEnviar = (evento) => {
     evento.preventDefault();
-    props.aoColaboradorCadastrado([
-      nome, cargo, imagem, time
-    ]);
+    props.aoColaboradorCadastrado(
+      {  nome, cargo, imagem, time}
+    );
     console.log("O botao foi carregado :D");
   }
 
