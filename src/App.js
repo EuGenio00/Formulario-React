@@ -11,13 +11,13 @@ function App() {
     corFundo: '#5b9bd5'
     },
     {nome: 'Administrativa',
-    corFundo: '#e7e6e6'
+    corFundo: 'rgba(238, 141, 18, 0.29)'
     },
     {nome: 'Instrutores',
     corFundo: '#5b9bd5'
     },
     {nome: 'Coordenação',
-    corFundo: '#e7e6e6'
+    corFundo: 'rgba(238, 141, 18, 0.29)'
     },
     {nome: 'Discentes',
     corFundo: '#5b9bd5'
@@ -35,12 +35,10 @@ function App() {
     <div className="App">
       <Banner />
       <Formulario 
+      times={times.map(time => time.nome)}
       aoColaboradorCadastrado = {colaborador => aoNovoColaboradorAdicionado(colaborador)}/>
-      <Time tituloNome= "Pedagógica"/>
-      <Time tituloNome= "Coordenação"/>
-      <Time tituloNome= "Administrativa"/>
-      <Time tituloNome= "Instrutores"/>
-      <Time tituloNome= "Discentes"/>
+
+      {times.map(time => <Time key={time.nome} tituloNome={time.nome} corFundo={time.corFundo} />)}
     </div>
   );
 }
