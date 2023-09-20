@@ -39,7 +39,7 @@ function App() {
       aoColaboradorCadastrado = {colaborador => aoNovoColaboradorAdicionado(colaborador)}/>
 
       {times.map(time => <Time 
-      colaboradores={colaboradores}
+      colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
       key={time.nome} 
       tituloNome={time.nome} 
       corFundo={time.corFundo} />)}
