@@ -18,22 +18,14 @@ const Formulario = (props) => {
       cargo, 
       imagem, 
       time
-    });
-    
+    })
+    setNome('')
+    setCargo('')
+    setImagem('')
+    setTime('');
+
     console.log("O botao foi carregado :D");
   }
-
-  // const aoAlterarNome = (valor) => {
-  //   setNome(valor);
-  // }
-
-  // const aoAlterarCargo = (valor) => {
-  //   setCargo(valor);
-  // }
-
-  // const aoAlterarImagem = (valor) => {
-  //   setImagem(valor);
-  // }
 
   return (
     <div className="formContent">
