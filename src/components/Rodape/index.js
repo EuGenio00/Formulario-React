@@ -6,17 +6,17 @@ const Rodape = (props) => {
     <section className='footer'>
       <ul>
         <li>
-          <a href='https://twitter.com' target="_blank" rel="noreferrer">
+          <a target="_blank" rel="noreferrer" href='https://twitter.com'>
             <img src='/imagens/tw.png' alt='icone Twitter' />
           </a>
         </li>
         <li>
-          <a href='https://facebook.com' target="_blank" rel="noreferrer">
+          <a target="_blank" rel="noreferrer" href='https://facebook.com'>
             <img src='/imagens/fb.png' alt='icone Facebook' />
           </a>
         </li>
         <li>
-          <a href='https://instagram.com' target="_blank" rel="noreferrer">
+          <a target="_blank" rel="noreferrer" href='https://instagram.com'>
             <img src='/imagens/ig.png' alt='icone Instagram' />
           </a>
         </li>
