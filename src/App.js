@@ -8,6 +8,9 @@ import Rodape from './components/Rodape';
 function App() {
 
   const times = [
+    {nome: 'Selecionar'
+    // corFundo: '#ffffff'
+    },
     {nome: 'Pedagógica',
     corFundo: '#5b9bd5'
     },
@@ -44,7 +47,7 @@ function App() {
       key={time.nome} 
       tituloNome={time.nome} 
       corFundo={time.corFundo} />)}
-      
+
        <Rodape desenvolvedor="Eugénio"/>
     </div>
    
